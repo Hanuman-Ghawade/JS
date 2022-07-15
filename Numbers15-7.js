@@ -8,7 +8,7 @@ console.log(z,typeof z)
 
 // fixed method 
 
-// console.log(z.toFixed(2))
+console.log(z.toFixed(2))
 
 /* Global JavaScript Methods
 1.Number()
