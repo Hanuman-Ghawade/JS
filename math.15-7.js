@@ -32,8 +32,3 @@ function randomInterger(min,max){
 
 let randomNumber = randomInterger(30,40)
 console.log(randomNumber)
-
-
-
-
-
