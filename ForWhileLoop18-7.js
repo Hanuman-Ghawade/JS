@@ -69,5 +69,3 @@ do {
 } while (j < 5);
 
 console.log(text3)
-
-

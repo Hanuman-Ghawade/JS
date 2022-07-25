@@ -2,17 +2,19 @@
    Method overloading not supported in javascript 
    javascript is interpretd language so that code run line by  line .so file line run 
 */
-// class Person {
-//     addition(a ,b, c){
-//         console.log(a + b + c)
-//     }
-//     addition(a,b){
-//         console.log( a + b )
-//     }
-// }
 
-// obj = new Person() ;
-// obj.addition(5,10,20)
+ // Method Overloading in javascript 
+class Operation {
+    addition(a ,b, c){
+        console.log(a + b + c)
+    }
+    addition(a,b){
+        console.log( a + b )
+    }
+}
+
+let add = new Operation() ;
+add.addition(5,10,20)
 
 
 // Method overriding in javascript 
@@ -38,6 +40,7 @@ class Child extends Person {
 
 }
 
-let obj = new Child ()
+let obj = new Child ("Hanuman","Ghawade","Beed")
 
-obj.fullName("Hanuman","Ghawade")
+obj.fullName()
+
