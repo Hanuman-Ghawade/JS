@@ -17,6 +17,4 @@ class Student {
 }
 let student = new Student("Hanuman",24)
 
-student.getResult("Ghawade", 30)
-
-
+student.getResult()

@@ -43,4 +43,3 @@ class Child extends Person {
 let obj = new Child ("Hanuman","Ghawade","Beed")
 
 obj.fullName()
-
